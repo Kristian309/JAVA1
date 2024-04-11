@@ -1,9 +1,12 @@
-function sumFirstAndLastE1l(input){
-    ///[20, 30,40]
-letfirstEl = input[0];
-let lastEl = input[input.length - 1];
-let sum = input[0] + input.length - 1;
-console.log(sum);
-}
-
-sumFirstAndLastE1l([20, 30, 40]);
+ function solve(num){
+    if(num > 10){
+      console.log(num - 10);
+    } else if (num = 10){
+      console.log("yes")
+    } else {
+      console.log(num + 10);
+    }
+ }
+solve(10);
+solve(30);
+solve(40);
